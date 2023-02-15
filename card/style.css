@@ -1,55 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.container {
     max-width: 40%;
     margin: 0 auto;
 }
 
-.text{
+/* text */
+
+.text {
     text-align: center;
 }
 
-.title{
+.title {
     color: rgb(33, 33, 103);
-    font-size: 40px;
     font-weight: bold;
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 50px;
     font-weight: 500;
     font-size: 35px;
+    padding-top: 50px;
 }
- 
-.textP{
+
+.textP {
     padding-top: 20px;
-    font-size: 17px;
     color: rgba(27, 26, 26, 0.696);
-    width: 89%;
-    margin: 0 auto;
     font-weight: 200;
     font-size: 15px;
 }
 
-.buttons{
+
+/* buttons */
+
+.buttons {
     margin: 0 auto;
     border: 1px solid rgba(36, 36, 36, 0.147);
     border-radius: 20px;
-    align-items: center;
     display: flex;
     width: 190px;
     margin-top: 50px;
-    font-size: 15px;
     font-size: 13px;
 }
 
-.activeBtn{
+.activeBtn {
     margin: 3px;
     background: blue;
     color: #fff;
@@ -59,7 +56,7 @@
     font-weight: 500;
 }
 
-.btn{
+.btn {
     color: rgba(0, 0, 0, 0.632);
     margin: 3px;
     cursor: pointer;
@@ -68,82 +65,82 @@
 }
 
 
-.cards{
+/* cards */
+
+.cards {
     display: flex;
-    justify-content: center;
+    align-items: start;
     justify-content: space-between;
 }
 
-.card{
+.card {
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
-    width: 230px;    
-    margin-bottom: 20px;
+    width: 230px;
+    margin-bottom: 80px;
+    padding-bottom: 30px;
 }
 
-.cardTitle{
+.cardTitle {
     background: linear-gradient(13deg, rgba(33, 33, 103, 0.086), rgb(255, 255, 255));
     padding: 20px;
     font-weight: 500;
 }
 
-.cardActive{
+.cardActive {
     border: 1px solid rgba(81, 78, 78, 0.196);
     border-radius: 7px;
 }
 
-.cardPrice{
+.cardPrice {
     display: flex;
     justify-content: center;
 }
 
-
-.price{
+.price {
     font-size: 40px;
     color: rgb(33, 33, 103);
     font-weight: 500;
 }
 
-.priceSpan{
+.priceSpan {
     color: rgba(0, 0, 0, 0.64);
     align-self: end;
     font-weight: 200;
     font-size: 12px;
 }
 
-.cardName{
+.cardName {
     padding-top: 10px;
     color: rgb(33, 33, 103);
     font-weight: 500;
 }
 
-.cardP{
-    font-size: 14px;
+.cardP {
     color: rgba(43, 42, 42, 0.64);
     font-weight: 200;
     font-size: 12px;
 }
 
-.cardListUl{
+.cardListUl {
     list-style: none;
     padding-top: 20px;
 }
 
-.cardLi{
+.cardLi {
     color: rgba(81, 78, 78, 0.741);
     padding-top: 10px;
     font-weight: 200;
     font-size: 13px;
 }
 
-.cardBtn{
+.cardBtn {
     background: blue;
     margin-top: 20px;
     color: #fff;
     padding: 10px 12px;
     border-radius: 50px;
-    font-size: 15px;
     margin: 20px 20px 12px;
     cursor: pointer;
     font-weight: 500;
@@ -151,21 +148,20 @@
 }
 
 
-.cardA{
+.cardA {
     color: blue;
     padding-bottom: 10px;
-    font-size: 13px;
     cursor: pointer;
     font-weight: 400;
     font-size: 12px;
 }
 
-.cardShadow{
-    box-shadow: rgba(0, 0, 0, 0.064) -3px 8px 76px 7px;    
+.cardShadow {
+    box-shadow: rgba(0, 0, 0, 0.064) -3px 8px 76px 7px;
 }
 
-.card:hover{
-    box-shadow: rgba(0, 0, 0, 0.048) -3px 8px 76px 7px;    
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.048) -3px 8px 76px 7px;
     background: rgba(75, 137, 225, 0.063);
     transition: all .3s;
 }
